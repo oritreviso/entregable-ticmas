@@ -24,8 +24,15 @@ a {
 
 .containerheader {
     display: flex;
+flex-direction: row;
+background-color: rgba( rgb(128, 128, 128),);
 
 
+}
+.fotoPerfil img{
+    width: 80px;
+    height: auto;
+    border-radius: 60px;
 }
 
 .menuItems {
