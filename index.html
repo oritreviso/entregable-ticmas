@@ -2,67 +2,164 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="shorcut icon" href="./assets/logo.jpg" class="real">
-    <link rel="stylesheet" href="./styles.css">
-
-    <title>TREVISO ORIANA CARMELA </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="shorcut icon" href="./assets/logo.jpg" class="real">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./components.js" class="real">
+  <title>TREVISO ORIANA CARMELA </title>
 </head>
 
 <body class="body">
 
-    <header class="containerheader">
+  <header class="containerheader">
+    <div></div>
+  </header>
 
-        <div class="headerNavbar">
+  <main class="ContainerContent">
 
-            <nav class="menu">
-                <ul class="menuItems">
+    <div class="containerData1">
 
-                    <button type="button" class="btn btn-outline-primary">Home</button>
-                    <button type="button" class="btn btn-outline-secondary">Trabajos</button>
-                    <button type="button" class="btn btn-outline-success">Experiencia</button>
-                    <button type="button" class="btn btn-outline-danger">Contacto</button>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assets/Polish_20200825_153808588.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CV TREVISO ORIANA</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn  mr-2"><i class="fas fa-link"></i> Ver Mas </a>
 
-
-                </ul>
-            </nav>
+          </div>
         </div>
-    </header>
-
-    <main class="content">
-        <div class="cvdatos">
-
-        <div class="headerDatos"><h1>CV TREVISO ORIANA CARMELA</h1>  </div>
-      <div class="fotoPerfil"> <img src="./assets/Polish_20200825_153808588.jpg" alt=""> </div>
+      </div>
     </div>
 
-        <div class="socialMedia">
-            <a href="" target="_blank">
-                <img src="./assets/mail.png" alt="" class="src">
-            </a>
+    <div class="containerData2">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assets/sobre mi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sobre mi</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Ver Mas</a>
 
-            <a href="" target="_blank">
-                <img src="./assets/insta.png" alt="" class="src">
-            </a>
-
-
-            <a href="" target="_blank">
-                <img src="./assets/ws.png" alt="" class="src">
-            </a>
-            </ul>
-
+          </div>
         </div>
-    </main>
-    <footer>
-        <img src="./assets/copy.png" alt="">
-    </footer>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assets/referencias comerciales.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Referencias Comerciales</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Ver Mas</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="./assets/trabajo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Experiencia laboral</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
+            <a href="#" class="btn"><i class="fab fa-github"></i> Github</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
 
 
+    <div class="FormContact">
+
+      <div class="contact_form">
+
+        <div class="formulario">
+          <h1>Formulario de contacto</h1>
+          <h3>Escríbeme y en breve me comunicare contigo</h3>
+
+
+          <form action="submeter-formulario.php" method="post">
+
+
+            <p>
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                placeholder="Escribe tu nombre">
+            </p>
+
+            <p>
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="email" name="introducir_email" id="email" required="obligatorio"
+                placeholder="Escribe tu Email">
+            </p>
+
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+              <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>
+            <p>
+              <label for="asunto" class="colocar_asunto">Asunto
+                <span class="obligatorio">*</span>
+              </label>
+              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                placeholder="Escribe un asunto">
+            </p>
+
+            <p>
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>
+              <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                placeholder="Deja aquí tu comentario..."></textarea>
+            </p>
+
+
+
+
+            <form action="pagina_destino.php" method=post name="formulario1">
+              <button type="submit" name="enviar_formulario" id="enviar">
+                <a href="javascript:enviar_formulario()">Enviar formulario</a>
+              </button>
+            </form>
+
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <div class="linea"> </div>
+  <footer>
+
+    <img src="./assets/insta.png" alt="" class="src">
+    <img src="./assets/mail.png" alt="" class="src">
+    <img src="./assets/ws.png" alt="" class="src">
+
+  </footer>
 
 </body>
 
