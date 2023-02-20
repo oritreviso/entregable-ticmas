@@ -231,7 +231,7 @@ li {
 
 footer {
   display: flex;
-justify-content: center;
+  justify-content: center;
   background-color: #3a3b39;
 
 }
@@ -244,8 +244,9 @@ footer img {
   border-radius: 50px;
 
 }
+
 /*pages*/
-.containerheaderPages{
+.containerheaderPages {
   display: flex;
   align-items: center;
 }
@@ -256,15 +257,15 @@ footer img {
 .menuItems {
   width: 85%;
   display: flex;
-flex-direction: row;
-padding: 5px;
+  flex-direction: row;
+  padding: 2px;
 }
 
-.contentExperiencia{
+.contentExperiencia {
   margin-left: 50px;
 }
 
-.card-text{
+.card-text {
   color: #fff;
 }
 
@@ -273,13 +274,13 @@ padding: 5px;
 
 /*Sobre mi.html*/
 
-.infosobreMi{
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 80px;
-text-align: center;
-padding-bottom: 15px;
+.infosobreMi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .infosobreMi h1 {
@@ -290,21 +291,21 @@ padding-bottom: 15px;
   color: #fbfbfb;
 }
 
-  
-.formSobremi{
+
+.formSobremi {
   display: flex;
   flex-direction: column;
-align-items: center;
-margin-top: 0%;
+  align-items: center;
+  margin-top: 0%;
 }
 
 
-.imgSobreMi img{
- width: 500px;
+.imgSobreMi img {
+  width: 500px;
   height: auto;
   padding: 30px;
   margin-bottom: 20px;
- }
+}
 
 
 
@@ -312,22 +313,23 @@ margin-top: 0%;
 /*Referencias.html*/
 
 
-.formReferencias{
- 
+.formReferencias {
+
 
   width: 500px;
   height: fit-content;
- 
+
 }
-.formReferencias ul{
+
+.formReferencias ul {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 
 }
 
 
-.refenciaPage{
+.refenciaPage {
   width: 800px;
   height: 550px;
   margin-left: 250px;
