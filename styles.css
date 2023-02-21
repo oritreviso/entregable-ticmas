@@ -83,7 +83,7 @@ label {
 button {
   height: 45px;
   padding-left: 5px;
-  padding-right: 5px;
+  padding-right: 25px;
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
@@ -91,7 +91,7 @@ button {
   border-color: #ab4493;
   border-style: solid;
   border-radius: 10px;
-  width: 420px;
+  width: 350px;
   cursor: pointer;
 }
 
@@ -251,15 +251,20 @@ footer img {
   align-items: center;
 }
 
+
+
+
 /* experincia.html*/
 
 
-.menuItems {
-  width: 85%;
+
+ul.menuItems {
   display: flex;
   flex-direction: row;
-  padding: 2px;
+
 }
+
+
 
 .contentExperiencia {
   margin-left: 50px;
@@ -332,6 +337,6 @@ footer img {
 .refenciaPage {
   width: 800px;
   height: 550px;
-  margin-left: 250px;
+  margin-left: 350px;
   background-color: #3a3b39;
 }
